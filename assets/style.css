@@ -1,0 +1,32 @@
+
+body {
+    background-image: url("http://thenerdstash.com/wp-content/uploads/2016/10/adventure-time-wallpaper-12.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    background-image: opacity:.5;
+    /*trying to get opacity to work but can't why doesn't this work?*/
+    
+}
+
+.container {
+	text-align: center;
+	color: #FF642A;
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: 1px 1px 1px #000; 
+
+}
+
+
+p {
+	padding-top: 50px;
+	font-size: 80px;
+	color: white;
+}
+button {
+	text-shadow: 3px 3px 3px #000; 
+}
+.spacing {
+	margin: 25px 100px 0px 100px;
+}

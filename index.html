@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lan='en'>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Adventure Time Trivia</title>
+
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+
+<body>
+
+<div class="container">
+
+	<p>Adventure Time Trivia</p>
+	<div class="timeLeft"> <h3><span id="count">60</span> seconds left</h3></div>
+	<br>
+	
+		<h3 id="question"></h3>
+		<h3 id="resultView"></h3>
+		<h3 id="answers"></h3>
+	
+	
+	<!--Buttons to get it started-->
+	<button type="button" id="startClock" class="btn btn-primary btn-lg gameStart">Start Game</button>
+
+	<br>
+	<button type="button" id="submitResult" class="btn btn-primary btn-lg next">Submit</button>
+
+	<!--End of the game yo-->
+	<div class="endGame">
+	<h2> Your Results:</h2>
+	<h2 id="correctGuesses">Correctly Answered: </h2>
+	<h2>Out of 5 Questions!</h2>
+	</div>
+
+</div> 
+
+
+
+<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+
+<!-- not sure where this goes -->
+<script src="assets/javascript/app.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+
+	
+	
+</body>
+</html>
